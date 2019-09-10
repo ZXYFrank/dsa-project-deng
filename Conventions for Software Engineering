@@ -1,0 +1,60 @@
+# Tips
+
+1. 可以使用 重载方法简明地进行前后查找的标记
+
+   ```java
+   search(value,posi,len);//后部区间查找
+   search(value,len,posi);//前部区间查找
+   ```
+
+2. 注意使用计算和编码的统一
+
+```java
+   public int convert(long ,int[] bases){
+       // for hexadecimal, as [1,2,3,4,5,6,...,a,b,c,d,e,f]
+       int base = bases.length;
+       Stack s = new Stack();
+       while(n>0){
+           s.push(bases[n%base]);// 直接转码
+           n /= base;
+       }
+       while(!s.empty()){
+           out(s.pop());
+       }
+   }
+```
+
+3. 使用整除将不等式转化为等式； 
+
+   ```java
+   int x = score/10;
+   // x可直接对应百分制得分的等级情况。
+   ```
+
+4. 使用哨兵（比如插入 \0 实现和回车符进行匹配）
+
+   > 见表达式求值
+
+5. **优先级矩阵**
+
+   ```java
+   final char[N_OPTR][N_OPTR] pri = 
+   {
+       //各个元素的相关关系
+   }
+   ```
+
+   
+
+# Conventions for Software Engineering
+
+# How to Encapsulate
+
+1. ```java
+   //表达式求值过程当中的封装方法
+   isDigit(String s);
+   readNumber(S,oped);
+   ```
+
+   
+
