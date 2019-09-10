@@ -12,7 +12,7 @@
 >
 > <p align='right'>—<cite>James Gosling</cite></p>
 
-## 1. Calculator and RNP generator using java —— Chap 4 Stack & Queue
+## 1. Calculator and RPN generator using java —— Chap 4 Stack & Queue
 
 <a href="https://sm.ms/image/xmcMRgoiKvJsIXb" target="_blank" ><img src="https://i.loli.net/2019/09/10/xmcMRgoiKvJsIXb.png" ></a>
 
